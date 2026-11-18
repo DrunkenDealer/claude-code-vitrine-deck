@@ -56,8 +56,8 @@ The deck is English; Vitrine's editor translates it once it's pushed. More in
 
 ## The CLI on its own
 
-`vitrine` works without Claude Code too: `vitrine init --screenshots <dir>`, `check`, `render`, and
-`push --server https://vitrine.mashlab.app` to open the deck in the editor. `vitrine --help` lists every command.
+`vitrine` works without Claude Code too: `vitrine init --screenshots <dir>`, `check`, `render`, and `push` to open
+the deck in the editor at vitrine.mashlab.app. `vitrine --help` lists every command.
 
 ## Development
 

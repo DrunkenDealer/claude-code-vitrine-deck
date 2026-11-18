@@ -40,7 +40,7 @@ const MIN_FLAT_DEVICE_HEIGHT = 0.25;
 // Local by default. Pushing creates a project on whatever this points at, and a
 // public instance is not somewhere an agent run should write without being told
 // to — so reaching vitrine.mashlab.app takes an explicit --server.
-const DEFAULT_SERVER = process.env.VITRINE_SERVER ?? "http://localhost:3001";
+const DEFAULT_SERVER = process.env.VITRINE_SERVER ?? "https://vitrine.mashlab.app";
 
 // Every deck value the CLI echoes leaves through these two streams.
 guardStreams();
