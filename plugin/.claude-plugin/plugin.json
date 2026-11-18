@@ -19,6 +19,12 @@
     "feature-graphic",
     "design",
     "ios",
-    "android"
+    "android",
+    "app-store-screenshots",
+    "play-store-screenshots",
+    "app-store-optimization",
+    "mockups",
+    "localization",
+    "cli"
   ]
 }

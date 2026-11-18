@@ -1,5 +1,7 @@
 # Vitrine Deck: App Store and Google Play screenshots, art-directed by Claude Code
 
+![Vitrine Deck: App Store and Google Play screenshots designed from your repo, every slide graded before it ships](assets/social-preview.png)
+
 **Vitrine Deck is a Claude Code plugin that turns your app's screenshots into a store listing.** It reads your
 repo and your real screenshots, or builds the app and captures them itself, then decides the look, layout and
 copy, grades every cell against a layout, contrast and store-policy scorer, and publishes the deck to
