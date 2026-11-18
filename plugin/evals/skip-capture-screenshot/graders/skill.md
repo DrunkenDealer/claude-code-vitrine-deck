@@ -1,7 +1,6 @@
 ---
-type: tool_used
-tool: Skill
-input_match: 'vitrine-deck'
-min: 0
-max: 0
+type: llm
+weight: 1
 ---
+
+The answer passes only if Claude never invoked the `vitrine-deck` skill (no Skill tool call naming vitrine-deck).

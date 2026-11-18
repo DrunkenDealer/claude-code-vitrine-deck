@@ -1,6 +1,6 @@
 ---
-type: tool_used
-tool: Skill
-input_match: 'vitrine-deck'
-min: 1
+type: llm
+weight: 1
 ---
+
+The answer passes only if Claude invoked the `vitrine-deck` skill (a Skill tool call naming vitrine-deck) at least once.
