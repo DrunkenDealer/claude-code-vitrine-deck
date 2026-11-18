@@ -3,7 +3,7 @@
 // so `npm install -g github:DrunkenDealer/claude-code-vitrine-deck` installs it.
 // Usage: VITRINE_HOME=/path/to/Vitrine node scripts/sync-cli.mjs
 import { execFileSync } from "node:child_process";
-import { cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -29,7 +29,8 @@ walk(join(home, "src/index.js"));
 // read at runtime by path, not imported
 const tracked = execFileSync("git", ["ls-files", "assets", "examples"], { cwd: home, encoding: "utf8" }).split("\n").filter(Boolean);
 
-rmSync(dest, { recursive: true, force: true });
+mkdirSync(dest, { recursive: true });
+for (const entry of readdirSync(dest)) if (entry !== "LICENSE") rmSync(join(dest, entry), { recursive: true });
 for (const rel of [...[...files].map((f) => relative(home, f)), ...tracked]) {
   mkdirSync(dirname(join(dest, rel)), { recursive: true });
   cpSync(join(home, rel), join(dest, rel));
@@ -48,6 +49,7 @@ const pkg = {
   files: ["cli"],
   engines: vitrine.engines,
   dependencies,
+  license: "SEE LICENSE IN cli/LICENSE",
   private: true,
 };
 writeFileSync(join(root, "package.json"), `${JSON.stringify(pkg, null, 2)}\n`);

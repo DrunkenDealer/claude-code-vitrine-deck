@@ -1,0 +1,33 @@
+Vitrine CLI License
+
+Copyright (c) 2026 Max Shwed. All rights reserved.
+
+This license covers everything in this cli/ directory: the Vitrine command-line tool, its source code and
+its assets (device frames, fonts, stickers, backgrounds and examples) (the "Software"). It does not cover the
+rest of this repository, which is under the MIT license in the repository's root LICENSE file.
+
+1. Permission to use. You may install and run the Software, free of charge, to make screenshots and other
+   store assets for your own apps or your clients' apps, including commercially. The images you make with it
+   are yours.
+
+2. Restrictions. Except as allowed in section 1, you may not:
+   a. copy, modify, translate or create derivative works of the Software, in whole or in part;
+   b. distribute, sublicense, sell, rent or otherwise make the Software available to others, except by
+      pointing them to this repository;
+   c. use the Software, or any part of it, to build or offer a product or service that competes with Vitrine,
+      including a hosted screenshot editor or screenshot-generation service;
+   d. remove or alter this license or any copyright notice.
+
+3. Third-party material. Fonts and other third-party assets included in the Software remain under their own
+   licenses, which take precedence for those files.
+
+4. Termination. This license ends automatically if you break its terms. When it ends, you must stop using the
+   Software and delete your copies.
+
+5. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+   IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+   THE USE OF OR OTHER DEALINGS IN THE SOFTWARE.
+
+For any use this license does not allow, contact the author through https://mashlab.app.

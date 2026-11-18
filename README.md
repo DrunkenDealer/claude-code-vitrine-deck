@@ -71,4 +71,6 @@ in `evals/`. `cli/` is generated from the Vitrine app's source by `scripts/sync-
 
 ## License
 
-[MIT](LICENSE) © Max Shwed
+The plugin, evals and scripts: [MIT](LICENSE) © Max Shwed. The `vitrine` CLI in `cli/` has its own
+[license](cli/LICENSE): free to install and use, including commercially, but not to copy, modify, redistribute or
+build a competing product from.
