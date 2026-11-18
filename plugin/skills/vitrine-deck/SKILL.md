@@ -3,7 +3,7 @@ name: vitrine-deck
 description: Art-directs and builds App Store / Play Store screenshots end to end — reads the app's repo and its real screenshots (or captures them from a headless simulator or emulator with staged demo data), picks the look, layout, copy and accents, grades every cell against a layout, contrast and store-policy scorer, repairs what it can, and publishes the English deck to Vitrine (vitrine.mashlab.app) as a link you can keep editing and translate in the app. Triggers on "make store screenshots", "design my app store screenshots", "vitrine deck", "screenshots for the App Store", "Play Store screenshots", "feature graphic".
 user-invocable: true
 argument-hint: "[screenshots-dir]"
-allowed-tools: Read, Write, Glob, Grep, Bash, AskUserQuestion
+allowed-tools: Read, Glob, Grep
 metadata:
   version: 1.0.1
 ---
