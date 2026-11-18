@@ -1,0 +1,14 @@
+{
+  "name": "iPhone Duo (inner display, Star White, landscape)",
+  "image": "iphone-duo-inner-landscape.svg",
+  "frameWidth": 2870,
+  "frameHeight": 2078,
+  "outerRadius": 230,
+  "cutout": {
+    "x": 100,
+    "y": 100,
+    "width": 2670,
+    "height": 1878,
+    "borderRadius": 160
+  }
+}

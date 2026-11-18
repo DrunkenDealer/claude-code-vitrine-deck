@@ -1,0 +1,383 @@
+{
+ "backgrounds": [
+  {
+   "id": "black-sand",
+   "label": "Black sand",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "adrien-olichon-1257089",
+    "source": "https://www.pexels.com/photo/28852712/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "crushed-paper",
+   "label": "Crushed paper",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "enginakyurt",
+    "source": "https://www.pexels.com/photo/24285677/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "rust-velvet",
+   "label": "Rust velvet",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "gulsahaydgn",
+    "source": "https://www.pexels.com/photo/30263578/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "midnight",
+   "label": "Midnight",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "eva-bronzini",
+    "source": "https://www.pexels.com/photo/7605260/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "liquid-navy",
+   "label": "Liquid navy",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "allec-gomes",
+    "source": "https://www.pexels.com/photo/12306417/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "deep-teal",
+   "label": "Deep teal",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "eva-bronzini",
+    "source": "https://www.pexels.com/photo/7629493/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "dusk-blur",
+   "label": "Dusk blur",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "eva-bronzini",
+    "source": "https://www.pexels.com/photo/7640905/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "midnight-violet",
+   "label": "Midnight violet",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/6985260/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "garnet-fold",
+   "label": "Garnet fold",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "allec-gomes",
+    "source": "https://www.pexels.com/photo/8961886/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "burnt-umber",
+   "label": "Burnt umber",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "francesco-ungaro",
+    "source": "https://www.pexels.com/photo/13216333/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "pine-shadow",
+   "label": "Pine shadow",
+   "group": "dark",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "eva-bronzini",
+    "source": "https://www.pexels.com/photo/7641148/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "violet-flux",
+   "label": "Violet flux",
+   "group": "vivid",
+   "ink": "#ffffff",
+   "panorama": false,
+   "panoramaNote": "ink",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/6985132/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "spectrum",
+   "label": "Spectrum",
+   "group": "vivid",
+   "ink": "#ffffff",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/6984991/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "prism",
+   "label": "Prism",
+   "group": "vivid",
+   "ink": "#ffffff",
+   "panorama": false,
+   "panoramaNote": "ink",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/6985049/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "red-cut",
+   "label": "Red cut",
+   "group": "graphic",
+   "ink": "#0f172a",
+   "panorama": false,
+   "panoramaNote": "ink",
+   "credit": {
+    "photographer": "tamanna-rumee",
+    "source": "https://www.pexels.com/photo/8755302/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "split-diagonal",
+   "label": "Split diagonal",
+   "group": "graphic",
+   "ink": "#18181b",
+   "panorama": false,
+   "panoramaNote": "ink",
+   "credit": {
+    "photographer": "tamanna-rumee",
+    "source": "https://www.pexels.com/photo/7953538/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "amber-curl",
+   "label": "Amber curl",
+   "group": "graphic",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "valentin-ivantsov",
+    "source": "https://www.pexels.com/photo/36151947/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "lime-fold",
+   "label": "Lime fold",
+   "group": "graphic",
+   "ink": "#0f172a",
+   "panorama": false,
+   "panoramaNote": "ink",
+   "credit": {
+    "photographer": "valentin-ivantsov",
+    "source": "https://www.pexels.com/photo/36221697/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "sunbeam",
+   "label": "Sunbeam",
+   "group": "graphic",
+   "ink": "#0f172a",
+   "panorama": false,
+   "panoramaNote": "soft",
+   "credit": {
+    "photographer": "content-prod-co",
+    "source": "https://www.pexels.com/photo/5908235/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "bold-blocks",
+   "label": "Bold blocks",
+   "group": "graphic",
+   "ink": "#ffffff",
+   "panorama": false,
+   "panoramaNote": "ink",
+   "credit": {
+    "photographer": "valentin-ivantsov",
+    "source": "https://www.pexels.com/photo/36133554/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "primary-bands",
+   "label": "Primary bands",
+   "group": "graphic",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "anni-roenkae",
+    "source": "https://www.pexels.com/photo/2457290/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "cyan-fold",
+   "label": "Cyan fold",
+   "group": "graphic",
+   "ink": "#0f172a",
+   "panorama": false,
+   "panoramaNote": "soft",
+   "credit": {
+    "photographer": "valentin-ivantsov",
+    "source": "https://www.pexels.com/photo/36213965/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "magenta-haze",
+   "label": "Magenta haze",
+   "group": "light",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/7130535/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "rose-quartz",
+   "label": "Rose quartz",
+   "group": "light",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/7130469/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "periwinkle",
+   "label": "Periwinkle",
+   "group": "light",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/7130544/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "citrine",
+   "label": "Citrine",
+   "group": "light",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/7130479/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "seafoam",
+   "label": "Seafoam",
+   "group": "light",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/7130468/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "blossom",
+   "label": "Blossom",
+   "group": "light",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/7130874/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "sherbet",
+   "label": "Sherbet",
+   "group": "light",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "codioful",
+    "source": "https://www.pexels.com/photo/7130545/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "white-marble",
+   "label": "White marble",
+   "group": "neutral",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "mohammad-al-dabbagh",
+    "source": "https://www.pexels.com/photo/14583331/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "off-white-paper",
+   "label": "Off-white paper",
+   "group": "neutral",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "clarissa-schwarz",
+    "source": "https://www.pexels.com/photo/8941369/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "warm-canvas",
+   "label": "Warm canvas",
+   "group": "neutral",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "eva-bronzini",
+    "source": "https://www.pexels.com/photo/7599590/",
+    "license": "Pexels"
+   }
+  },
+  {
+   "id": "soft-grey",
+   "label": "Soft grey",
+   "group": "neutral",
+   "ink": "#0f172a",
+   "credit": {
+    "photographer": "eva-bronzini",
+    "source": "https://www.pexels.com/photo/7605642/",
+    "license": "Pexels"
+   }
+  }
+ ]
+}

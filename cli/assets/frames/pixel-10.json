@@ -1,0 +1,14 @@
+{
+  "name": "Pixel 10 (slab, black)",
+  "style": "pixel",
+  "frameWidth": 1164,
+  "frameHeight": 2508,
+  "outerRadius": 138,
+  "cutout": {
+    "x": 42,
+    "y": 42,
+    "width": 1080,
+    "height": 2424,
+    "borderRadius": 96
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Pixel 10 (slab, black, landscape)",
+  "style": "pixel",
+  "frameWidth": 2508,
+  "frameHeight": 1164,
+  "outerRadius": 138,
+  "cutout": {
+    "x": 42,
+    "y": 42,
+    "width": 2424,
+    "height": 1080,
+    "borderRadius": 96
+  }
+}

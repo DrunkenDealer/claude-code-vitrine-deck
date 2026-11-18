@@ -1,0 +1,21 @@
+{
+  "name": "vitrine",
+  "version": "0.1.0",
+  "description": "The Vitrine CLI: design, grade, render and publish App Store and Google Play screenshot decks.",
+  "type": "module",
+  "bin": {
+    "vitrine": "cli/src/index.js"
+  },
+  "files": [
+    "cli"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "playwright": "1.60.0",
+    "sharp": "^0.35.5"
+  },
+  "private": true
+}

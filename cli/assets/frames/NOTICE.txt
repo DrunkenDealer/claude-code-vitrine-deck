@@ -1,0 +1,14 @@
+iPhone Duo frames — iphone-duo-*.svg
+
+  "iPhone 18 Pro / Max / Duo (components + vectors)" by James Jingyi (jamesjingyi)
+  https://www.figma.com/community/file/1686422548175302738
+  https://github.com/jamesjingyi/mockup-device-frames (Exports/iOS/Duo)
+  Licensed under CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+  (the license Figma Community publishes free files under).
+
+  Changes: iphone-duo-outer.svg and iphone-duo-inner-landscape.svg are the
+  "iPhone Duo - Outer" and "iPhone Duo - Inner" exports, unmodified. The
+  iphone-duo-outer-landscape.svg and iphone-duo-inner.svg variants are those
+  files wrapped in a quarter-turn left; nothing else is changed.
+
+Every other frame here is generated from its JSON by src/frames.js.

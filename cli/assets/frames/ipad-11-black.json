@@ -1,0 +1,14 @@
+{
+  "name": "iPad 11\" (slim bezel, black)",
+  "style": "ipad",
+  "frameWidth": 1790,
+  "frameHeight": 2542,
+  "outerRadius": 115,
+  "cutout": {
+    "x": 61,
+    "y": 61,
+    "width": 1668,
+    "height": 2420,
+    "borderRadius": 54
+  }
+}

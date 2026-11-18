@@ -1,0 +1,14 @@
+{
+  "name": "iPad (4:3, slim bezel, black, landscape)",
+  "style": "ipad",
+  "frameWidth": 2878,
+  "frameHeight": 2190,
+  "outerRadius": 127,
+  "cutout": {
+    "x": 63,
+    "y": 63,
+    "width": 2752,
+    "height": 2064,
+    "borderRadius": 64
+  }
+}

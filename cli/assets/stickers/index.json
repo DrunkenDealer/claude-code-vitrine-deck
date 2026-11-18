@@ -1,0 +1,489 @@
+{
+  "packs": [
+    {
+      "id": "objects",
+      "label": "Objects"
+    },
+    {
+      "id": "icons",
+      "label": "Icons",
+      "onDemand": true,
+      "weights": {
+        "options": [
+          "thin",
+          "light",
+          "regular",
+          "bold",
+          "fill",
+          "duotone"
+        ],
+        "bare": "regular",
+        "default": "duotone"
+      },
+      "slots": [
+        {
+          "token": "c1",
+          "label": "Icon",
+          "default": "#111827"
+        }
+      ]
+    },
+    {
+      "id": "emoji",
+      "label": "Emoji",
+      "onDemand": true
+    }
+  ],
+  "stickers": [
+    {
+      "id": "objects/trophy",
+      "pack": "objects",
+      "name": "Trophy",
+      "aspect": 0.8349,
+      "tags": [
+        "trophy",
+        "award",
+        "win",
+        "best",
+        "winner"
+      ]
+    },
+    {
+      "id": "objects/medal-gold",
+      "pack": "objects",
+      "name": "1st place medal",
+      "aspect": 0.8773,
+      "tags": [
+        "medal",
+        "gold",
+        "first",
+        "rank",
+        "award"
+      ]
+    },
+    {
+      "id": "objects/medal-star",
+      "pack": "objects",
+      "name": "Sports medal",
+      "aspect": 0.8966,
+      "tags": [
+        "medal",
+        "star",
+        "award",
+        "prize"
+      ]
+    },
+    {
+      "id": "objects/crown",
+      "pack": "objects",
+      "name": "Crown",
+      "aspect": 1.2103,
+      "tags": [
+        "crown",
+        "king",
+        "premium",
+        "pro",
+        "best"
+      ]
+    },
+    {
+      "id": "objects/gem",
+      "pack": "objects",
+      "name": "Gem stone",
+      "aspect": 1.2364,
+      "tags": [
+        "gem",
+        "diamond",
+        "premium",
+        "value",
+        "pro"
+      ]
+    },
+    {
+      "id": "objects/star",
+      "pack": "objects",
+      "name": "Star",
+      "aspect": 1,
+      "tags": [
+        "star",
+        "rating",
+        "favourite",
+        "review"
+      ]
+    },
+    {
+      "id": "objects/star-glow",
+      "pack": "objects",
+      "name": "Glowing star",
+      "aspect": 1.0177,
+      "tags": [
+        "star",
+        "glow",
+        "shine",
+        "rating",
+        "featured"
+      ]
+    },
+    {
+      "id": "objects/hundred",
+      "pack": "objects",
+      "name": "Hundred points",
+      "aspect": 1.1164,
+      "tags": [
+        "100",
+        "score",
+        "perfect",
+        "points"
+      ]
+    },
+    {
+      "id": "objects/check",
+      "pack": "objects",
+      "name": "Check mark button",
+      "aspect": 1,
+      "tags": [
+        "check",
+        "done",
+        "verified",
+        "approved",
+        "yes"
+      ]
+    },
+    {
+      "id": "objects/shield",
+      "pack": "objects",
+      "name": "Shield",
+      "aspect": 0.8349,
+      "tags": [
+        "shield",
+        "secure",
+        "privacy",
+        "safe",
+        "trust"
+      ]
+    },
+    {
+      "id": "objects/ribbon",
+      "pack": "objects",
+      "name": "Ribbon",
+      "aspect": 1.1499,
+      "tags": [
+        "ribbon",
+        "bow",
+        "award",
+        "gift"
+      ]
+    },
+    {
+      "id": "objects/bookmark",
+      "pack": "objects",
+      "name": "Bookmark",
+      "aspect": 1.0087,
+      "tags": [
+        "bookmark",
+        "save",
+        "tag",
+        "mark"
+      ]
+    },
+    {
+      "id": "objects/label",
+      "pack": "objects",
+      "name": "Label",
+      "aspect": 1.1484,
+      "tags": [
+        "label",
+        "tag",
+        "price",
+        "offer"
+      ]
+    },
+    {
+      "id": "objects/party-popper",
+      "pack": "objects",
+      "name": "Party popper",
+      "aspect": 0.9566,
+      "tags": [
+        "party",
+        "celebrate",
+        "launch",
+        "confetti"
+      ]
+    },
+    {
+      "id": "objects/confetti",
+      "pack": "objects",
+      "name": "Confetti ball",
+      "aspect": 1.3179,
+      "tags": [
+        "confetti",
+        "celebrate",
+        "party",
+        "launch"
+      ]
+    },
+    {
+      "id": "objects/balloon",
+      "pack": "objects",
+      "name": "Balloon",
+      "aspect": 0.7393,
+      "tags": [
+        "balloon",
+        "party",
+        "celebrate"
+      ]
+    },
+    {
+      "id": "objects/gift",
+      "pack": "objects",
+      "name": "Wrapped gift",
+      "aspect": 0.9068,
+      "tags": [
+        "gift",
+        "present",
+        "offer",
+        "free",
+        "bonus"
+      ]
+    },
+    {
+      "id": "objects/sparkles",
+      "pack": "objects",
+      "name": "Sparkles",
+      "aspect": 1.1057,
+      "tags": [
+        "sparkles",
+        "shine",
+        "magic",
+        "ai",
+        "new"
+      ]
+    },
+    {
+      "id": "objects/rainbow",
+      "pack": "objects",
+      "name": "Rainbow",
+      "aspect": 1,
+      "tags": [
+        "rainbow",
+        "colour",
+        "pride",
+        "bright"
+      ]
+    },
+    {
+      "id": "objects/fire",
+      "pack": "objects",
+      "name": "Fire",
+      "aspect": 0.8001,
+      "tags": [
+        "fire",
+        "hot",
+        "trending",
+        "popular",
+        "streak"
+      ]
+    },
+    {
+      "id": "objects/rocket",
+      "pack": "objects",
+      "name": "Rocket",
+      "aspect": 1.0088,
+      "tags": [
+        "rocket",
+        "launch",
+        "fast",
+        "ship",
+        "boost"
+      ]
+    },
+    {
+      "id": "objects/bolt",
+      "pack": "objects",
+      "name": "High voltage",
+      "aspect": 0.5896,
+      "tags": [
+        "bolt",
+        "fast",
+        "power",
+        "energy",
+        "instant"
+      ]
+    },
+    {
+      "id": "objects/chart-up",
+      "pack": "objects",
+      "name": "Chart increasing",
+      "aspect": 1,
+      "tags": [
+        "chart",
+        "growth",
+        "up",
+        "stats",
+        "analytics"
+      ]
+    },
+    {
+      "id": "objects/target",
+      "pack": "objects",
+      "name": "Bullseye",
+      "aspect": 1,
+      "tags": [
+        "target",
+        "goal",
+        "aim",
+        "accurate",
+        "focus"
+      ]
+    },
+    {
+      "id": "objects/magic-wand",
+      "pack": "objects",
+      "name": "Magic wand",
+      "aspect": 1,
+      "tags": [
+        "magic",
+        "wand",
+        "ai",
+        "auto",
+        "sparkle"
+      ]
+    },
+    {
+      "id": "objects/crystal-ball",
+      "pack": "objects",
+      "name": "Crystal ball",
+      "aspect": 0.861,
+      "tags": [
+        "crystal",
+        "ball",
+        "predict",
+        "future",
+        "magic"
+      ]
+    },
+    {
+      "id": "objects/key",
+      "pack": "objects",
+      "name": "Key",
+      "aspect": 1,
+      "tags": [
+        "key",
+        "unlock",
+        "access",
+        "secure"
+      ]
+    },
+    {
+      "id": "objects/lock",
+      "pack": "objects",
+      "name": "Locked",
+      "aspect": 0.7914,
+      "tags": [
+        "lock",
+        "secure",
+        "private",
+        "safe"
+      ]
+    },
+    {
+      "id": "objects/money-bag",
+      "pack": "objects",
+      "name": "Money bag",
+      "aspect": 0.861,
+      "tags": [
+        "money",
+        "save",
+        "earn",
+        "cash",
+        "value"
+      ]
+    },
+    {
+      "id": "objects/heart",
+      "pack": "objects",
+      "name": "Red heart",
+      "aspect": 1.0934,
+      "tags": [
+        "heart",
+        "love",
+        "like",
+        "favourite"
+      ]
+    },
+    {
+      "id": "objects/heart-grow",
+      "pack": "objects",
+      "name": "Growing heart",
+      "aspect": 1.1493,
+      "tags": [
+        "heart",
+        "love",
+        "grow",
+        "like"
+      ]
+    },
+    {
+      "id": "objects/bell",
+      "pack": "objects",
+      "name": "Bell",
+      "aspect": 0.9305,
+      "tags": [
+        "bell",
+        "notify",
+        "alert",
+        "reminder"
+      ]
+    },
+    {
+      "id": "objects/megaphone",
+      "pack": "objects",
+      "name": "Loudspeaker",
+      "aspect": 1.084,
+      "tags": [
+        "megaphone",
+        "announce",
+        "shout",
+        "news"
+      ]
+    },
+    {
+      "id": "objects/bulb",
+      "pack": "objects",
+      "name": "Light bulb",
+      "aspect": 0.635,
+      "tags": [
+        "bulb",
+        "idea",
+        "tip",
+        "smart",
+        "insight"
+      ]
+    },
+    {
+      "id": "objects/handshake",
+      "pack": "objects",
+      "name": "Handshake",
+      "aspect": 1.1142,
+      "tags": [
+        "handshake",
+        "deal",
+        "partner",
+        "trust"
+      ]
+    },
+    {
+      "id": "objects/eyes",
+      "pack": "objects",
+      "name": "Eyes",
+      "aspect": 1.2635,
+      "tags": [
+        "eyes",
+        "look",
+        "watch",
+        "see",
+        "attention"
+      ]
+    }
+  ]
+}

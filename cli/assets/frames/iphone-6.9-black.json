@@ -1,0 +1,14 @@
+{
+  "name": "iPhone 6.9 (slab, black)",
+  "style": "iphone",
+  "frameWidth": 1420,
+  "frameHeight": 2980,
+  "outerRadius": 210,
+  "cutout": {
+    "x": 50,
+    "y": 56,
+    "width": 1320,
+    "height": 2868,
+    "borderRadius": 160
+  }
+}

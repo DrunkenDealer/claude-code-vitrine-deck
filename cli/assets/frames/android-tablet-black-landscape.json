@@ -1,0 +1,14 @@
+{
+  "name": "Android tablet (8:5, black, landscape)",
+  "style": "android-tablet",
+  "frameWidth": 2684,
+  "frameHeight": 1724,
+  "outerRadius": 108,
+  "cutout": {
+    "x": 62,
+    "y": 62,
+    "width": 2560,
+    "height": 1600,
+    "borderRadius": 48
+  }
+}

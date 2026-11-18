@@ -1,0 +1,20 @@
+{
+  "outputDir": "../out/batch",
+  "background": "linear-gradient(180deg, #6366f1 0%, #ec4899 100%)",
+  "devices": ["iphone-6.9", "android-phone"],
+  "slides": [
+    {
+      "name": "01-hero",
+      "input": "01-today.png",
+      "headline": "Track every workout",
+      "subtitle": "Auto-logs from any wearable"
+    },
+    {
+      "name": "02-list",
+      "input": "02-progress.png",
+      "headline": "Plans built for you",
+      "subtitle": "Personalized by AI, every week",
+      "background": "linear-gradient(160deg, #0f172a 0%, #1e40af 100%)"
+    }
+  ]
+}

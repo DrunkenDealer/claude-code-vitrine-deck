@@ -1,0 +1,14 @@
+{
+  "name": "TV (16:9, black)",
+  "style": "tv",
+  "frameWidth": 2000,
+  "frameHeight": 1300,
+  "outerRadius": 40,
+  "cutout": {
+    "x": 40,
+    "y": 40,
+    "width": 1920,
+    "height": 1080,
+    "borderRadius": 20
+  }
+}
