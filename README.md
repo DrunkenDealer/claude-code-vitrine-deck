@@ -1,0 +1,62 @@
+# Vitrine Deck: App Store and Google Play screenshots, art-directed by Claude Code
+
+**Vitrine Deck is a Claude Code plugin that turns your app's screenshots into a store listing.** It reads your
+repo and your real screenshots, or builds the app and captures them itself, then decides the look, layout and
+copy, grades every cell against a layout, contrast and store-policy scorer, and publishes the deck to
+[Vitrine](https://vitrine.mashlab.app) as a link you keep editing, translate and download in every size.
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-d97757)
+
+For app owners who aren't designers. Nothing is taken on trust: text off the canvas, a headline over the
+device, type too small for a store thumbnail, words that can't be read off their ground, a canvas or claim
+the store refuses — each is measured, and a deck that doesn't pass doesn't ship.
+
+## Install
+
+```
+/plugin marketplace add DrunkenDealer/claude-code-qa-cycle
+/plugin install vitrine-deck@mashlab
+```
+
+The `mashlab` marketplace lists all of this author's plugins; it lives in the QA Cycle repo for now.
+
+Then open your app's repo and ask **"Make the store screenshots for this app"** (or `/vitrine-deck:vitrine-deck`,
+optionally with a screenshots folder).
+
+## What a run does
+
+1. **Reads the repo** — name, value prop, brand colours, store keywords, shipped languages, which devices and
+   stores the project targets. It asks only what the repo can't answer.
+2. **Gets screenshots** — from your folder, or by building the app on a headless simulator or emulator with
+   staged, lived-in demo data.
+3. **Looks at every screenshot** — content, dead space, light or dark chrome — and flags an unused-looking app,
+   a baked-in frame, the wrong platform or a splash screen before designing around it.
+4. **Proposes one plan** — slides, devices, look, extras on offer — in a single question round.
+5. **Builds and grades the deck** with the `vitrine` CLI, repairing what the scorer flags.
+6. **Publishes** to vitrine.mashlab.app and ends with the link to open.
+
+The deck is English; Vitrine's editor translates it once it's pushed.
+
+## Requirements
+
+- Claude Code, Node.js 24+, and the `vitrine` CLI from the [Vitrine](https://github.com/DrunkenDealer/Vitrine)
+  repository (`npm install && npx playwright install chromium && npm link`). The skill offers the setup on first run.
+- For capture: Xcode with `xcrun simctl` for iOS rows, an Android SDK emulator for Android rows.
+- Publishing makes an anonymous deck that's deleted within 24 h unless you sign in and keep it. Your first
+  project is free.
+
+## Development
+
+```sh
+VITRINE_HOME=/path/to/Vitrine node evals/drift.mjs   # every command, flag and id the skill names vs the live CLI
+VITRINE_HOME=/path/to/Vitrine evals/run.sh            # headless end-to-end runs on the fixture apps, graded
+claude plugin eval plugin --no-publish --trust-plugin # trigger evals in plugin/skills/vitrine-deck/evals/
+```
+
+The plugin itself is `plugin/` (Markdown, JSON and images only); the eval runner, grader and fixture apps live
+in `evals/`. See [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+[MIT](LICENSE) © Max Shwed
