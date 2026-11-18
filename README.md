@@ -36,12 +36,18 @@ optionally with a screenshots folder).
 5. **Builds and grades the deck** with the `vitrine` CLI, repairing what the scorer flags.
 6. **Publishes** to vitrine.mashlab.app and ends with the link to open.
 
-The deck is English; Vitrine's editor translates it once it's pushed.
+The deck is English; Vitrine's editor translates it once it's pushed. More in
+[the write-up](https://mashlab.app/blog/claude-code-vitrine-deck/).
 
 ## Requirements
 
-- Claude Code, Node.js 24+, and the `vitrine` CLI from the [Vitrine](https://github.com/DrunkenDealer/Vitrine)
-  repository (`npm install && npx playwright install chromium && npm link`). The skill offers the setup on first run.
+- Claude Code, Node.js 24+, and the `vitrine` CLI from [Vitrine](https://github.com/DrunkenDealer/Vitrine). The skill
+  offers to install it on first run, or install it yourself:
+
+  ```sh
+  npm install -g github:DrunkenDealer/Vitrine
+  npm explore -g vitrine -- npx playwright install chromium
+  ```
 - For capture: Xcode with `xcrun simctl` for iOS rows, an Android SDK emulator for Android rows.
 - Publishing makes an anonymous deck that's deleted within 24 h unless you sign in and keep it. Your first
   project is free.

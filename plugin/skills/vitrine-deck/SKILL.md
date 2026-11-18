@@ -26,19 +26,22 @@ For someone who owns an app and is not a designer. They have screenshots and kno
 
 ## 0. Set up the CLI
 
-The `vitrine` CLI comes from the Vitrine repository and needs Node ≥ 24 and Playwright's Chromium.
+The `vitrine` CLI comes from [github.com/DrunkenDealer/Vitrine](https://github.com/DrunkenDealer/Vitrine) and needs Node ≥ 24 and Playwright's Chromium.
 
 ```bash
-command -v vitrine || echo "not linked"; node -v
+command -v vitrine || echo "not installed"; node -v
 ```
 
-If it isn't linked, find a checkout (`$VITRINE_HOME`, then `~/WebstormProjects/Vitrine`, `~/Projects/Vitrine`, `~/vitrine`) and offer the one-time setup in it:
+If it isn't installed, offer the one-time install straight from GitHub:
 
 ```bash
-npm install && npx playwright install chromium && npm link
+npm install -g github:DrunkenDealer/Vitrine
+npm explore -g vitrine -- npx playwright install chromium
 ```
 
-Without `npm link`, write every command as `node /absolute/path/to/Vitrine/src/index.js …` — shell variables and functions don't survive between Bash calls, so spell the path out each time. Below, `vitrine` means whichever you have.
+Run Playwright through `npm explore`, never a bare `npx playwright`: that fetches the latest Playwright, whose Chromium the CLI's pinned version can't launch.
+
+A developer with a checkout (`$VITRINE_HOME`, `~/WebstormProjects/Vitrine`, `~/Projects/Vitrine`, `~/vitrine`) and no global install can use it instead: `npm install && npx playwright install chromium && npm link` in it, or every command as `node /absolute/path/to/Vitrine/src/index.js …` — shell variables and functions don't survive between Bash calls, so spell the path out each time. Below, `vitrine` means whichever you have.
 
 Node < 24 is not a soft warning: the session file can't be saved and every push starts a new project. If Chromium won't launch, grade with `--fast` and say so in the report.
 
