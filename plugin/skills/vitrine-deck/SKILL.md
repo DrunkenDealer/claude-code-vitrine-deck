@@ -4,8 +4,6 @@ description: Art-directs and builds App Store / Play Store screenshots end to en
 user-invocable: true
 argument-hint: "[screenshots-dir]"
 allowed-tools: Read, Glob, Grep
-metadata:
-  version: 1.0.1
 ---
 
 # Vitrine Deck
