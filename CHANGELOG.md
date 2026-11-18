@@ -4,6 +4,8 @@
 
 - `vitrine push` and `vitrine session` default to vitrine.mashlab.app, so the CLI on its own needs no `--server`.
   Set `VITRINE_SERVER` to push somewhere else.
+- The skill pre-approves only Read, Glob and Grep; Write, Bash and questions ask as usual. The plugin has an icon,
+  and its trigger evals moved to `plugin/evals/`.
 
 ## 1.0.0 — 2026-11-18
 

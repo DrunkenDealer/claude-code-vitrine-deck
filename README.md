@@ -64,7 +64,7 @@ the deck in the editor at vitrine.mashlab.app. `vitrine --help` lists every comm
 ```sh
 VITRINE_HOME=/path/to/Vitrine node evals/drift.mjs   # every command, flag and id the skill names vs the live CLI
 VITRINE_HOME=/path/to/Vitrine evals/run.sh            # headless end-to-end runs on the fixture apps, graded
-claude plugin eval plugin --no-publish --trust-plugin # trigger evals in plugin/skills/vitrine-deck/evals/
+claude plugin eval plugin --no-publish --trust-plugin # trigger evals in plugin/evals/
 VITRINE_HOME=/path/to/Vitrine node scripts/sync-cli.mjs # refresh cli/ and package.json from Vitrine
 ```
 
