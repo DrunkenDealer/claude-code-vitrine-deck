@@ -37,7 +37,7 @@ optionally with a screenshots folder).
 6. **Publishes** to vitrine.mashlab.app and ends with the link to open.
 
 The deck is English; Vitrine's editor translates it once it's pushed. More in
-[the write-up](https://mashlab.app/blog/claude-code-vitrine-deck/).
+[the Vitrine site](https://mashlab.app/vitrine/#cli).
 
 ## Requirements
 
