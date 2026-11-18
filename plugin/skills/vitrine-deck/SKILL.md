@@ -43,6 +43,18 @@ A developer with a checkout (`$VITRINE_HOME`, `~/WebstormProjects/Vitrine`, `~/P
 
 Node < 24 is not a soft warning: the session file can't be saved and every push starts a new project. If Chromium won't launch, grade with `--fast` and say so in the report.
 
+### Network and data
+
+The skill itself runs nothing; every network call is a `vitrine` or `npm` command it shows first. It reads no API keys or credentials.
+
+| Host | When | What's sent |
+|---|---|---|
+| `github.com`, `registry.npmjs.org` | one-time CLI install, only if the developer agrees | nothing; npm downloads the CLI and its dependencies |
+| Playwright's Chromium CDN | one-time `npx playwright install chromium` | nothing; downloads the browser used to render |
+| `vitrine.mashlab.app` | `vitrine session` and `vitrine push` (steps 4 and 8) | the deck JSON and the screenshot images it references, over HTTPS; the anonymous session cookie lives in `~/.config/vitrine/` |
+
+Everything else — reading the repo, capture, build, grade, render — is local. Skip step 8 and nothing leaves the machine.
+
 ## 1. Read the repo
 
 Re-asking for something the repo already answers is the most irritating thing this skill can do.
