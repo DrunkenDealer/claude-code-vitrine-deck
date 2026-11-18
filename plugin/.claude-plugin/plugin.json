@@ -1,7 +1,7 @@
 {
   "name": "vitrine-deck",
   "displayName": "Vitrine Deck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App Store and Google Play screenshots, art-directed end to end: reads your repo and real screenshots (or captures them from a headless simulator or emulator), picks the look, layout and copy, grades every cell against a layout, contrast and store-policy scorer, and publishes the deck to Vitrine as a link you keep editing and translate.",
   "author": {
     "name": "Max Shwed",

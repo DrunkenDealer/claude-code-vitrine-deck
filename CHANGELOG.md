@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 — 2026-11-18
+
+- `vitrine push` and `vitrine session` default to vitrine.mashlab.app, so the CLI on its own needs no `--server`.
+  Set `VITRINE_SERVER` to push somewhere else.
+
 ## 1.0.0 — 2026-11-18
 
 - First public release, installed as `vitrine-deck@mashlab` from the `mashlab` catalog in
