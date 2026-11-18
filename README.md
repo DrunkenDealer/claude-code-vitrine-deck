@@ -15,11 +15,11 @@ the store refuses — each is measured, and a deck that doesn't pass doesn't shi
 ## Install
 
 ```
-/plugin marketplace add DrunkenDealer/claude-code-qa-cycle
+/plugin marketplace add DrunkenDealer/claude-plugins
 /plugin install vitrine-deck@mashlab
 ```
 
-The `mashlab` marketplace lists all of this author's plugins; it lives in the QA Cycle repo for now.
+[`mashlab`](https://github.com/DrunkenDealer/claude-plugins) is the catalog of all Mash Lab plugins, QA Cycle included.
 
 Then open your app's repo and ask **"Make the store screenshots for this app"** (or `/vitrine-deck:vitrine-deck`,
 optionally with a screenshots folder).
