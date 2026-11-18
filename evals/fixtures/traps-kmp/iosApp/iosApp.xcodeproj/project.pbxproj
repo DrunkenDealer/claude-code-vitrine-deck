@@ -1,0 +1,2 @@
+// !$*UTF8*$!
+{ objects = { B1 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = Plantly; SDKROOT = iphoneos; TARGETED_DEVICE_FAMILY = 1; }; name = Release; }; }; }
