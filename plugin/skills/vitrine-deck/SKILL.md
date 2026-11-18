@@ -26,7 +26,7 @@ For someone who owns an app and is not a designer. They have screenshots and kno
 
 ## 0. Set up the CLI
 
-The `vitrine` CLI comes from [github.com/DrunkenDealer/Vitrine](https://github.com/DrunkenDealer/Vitrine) and needs Node ≥ 24 and Playwright's Chromium.
+The `vitrine` CLI ships in this plugin's repo, [claude-code-vitrine-deck](https://github.com/DrunkenDealer/claude-code-vitrine-deck), and needs Node ≥ 24 and Playwright's Chromium.
 
 ```bash
 command -v vitrine || echo "not installed"; node -v
@@ -35,7 +35,7 @@ command -v vitrine || echo "not installed"; node -v
 If it isn't installed, offer the one-time install straight from GitHub:
 
 ```bash
-npm install -g github:DrunkenDealer/Vitrine
+npm install -g github:DrunkenDealer/claude-code-vitrine-deck
 npm explore -g vitrine -- npx playwright install chromium
 ```
 

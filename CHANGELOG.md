@@ -2,8 +2,9 @@
 
 ## 2.1.1 — 2026-11-18
 
-- The CLI installs straight from GitHub (`npm install -g github:DrunkenDealer/Vitrine`), with Chromium installed by the
-  CLI's own Playwright through `npm explore`. A Vitrine checkout is no longer needed.
+- The `vitrine` CLI ships in this repo's `cli/` and installs straight from GitHub
+  (`npm install -g github:DrunkenDealer/claude-code-vitrine-deck`), with Chromium installed by the CLI's own Playwright
+  through `npm explore`. A Vitrine checkout is no longer needed.
 - Install from the `mashlab` catalog in [claude-plugins](https://github.com/DrunkenDealer/claude-plugins).
 
 ## 2.1.0 — 2026-11-18

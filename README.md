@@ -41,16 +41,21 @@ The deck is English; Vitrine's editor translates it once it's pushed. More in
 
 ## Requirements
 
-- Claude Code, Node.js 24+, and the `vitrine` CLI from [Vitrine](https://github.com/DrunkenDealer/Vitrine). The skill
-  offers to install it on first run, or install it yourself:
+- Claude Code, Node.js 24+, and the `vitrine` CLI, which ships in this repo's [`cli/`](cli). The skill offers to
+  install it on first run, or install it yourself:
 
   ```sh
-  npm install -g github:DrunkenDealer/Vitrine
+  npm install -g github:DrunkenDealer/claude-code-vitrine-deck
   npm explore -g vitrine -- npx playwright install chromium
   ```
 - For capture: Xcode with `xcrun simctl` for iOS rows, an Android SDK emulator for Android rows.
 - Publishing makes an anonymous deck that's deleted within 24 h unless you sign in and keep it. Your first
   project is free.
+
+## The CLI on its own
+
+`vitrine` works without Claude Code too: `vitrine init --screenshots <dir>`, `check`, `render`, and
+`push --server https://vitrine.mashlab.app` to open the deck in the editor. `vitrine --help` lists every command.
 
 ## Development
 
@@ -58,10 +63,11 @@ The deck is English; Vitrine's editor translates it once it's pushed. More in
 VITRINE_HOME=/path/to/Vitrine node evals/drift.mjs   # every command, flag and id the skill names vs the live CLI
 VITRINE_HOME=/path/to/Vitrine evals/run.sh            # headless end-to-end runs on the fixture apps, graded
 claude plugin eval plugin --no-publish --trust-plugin # trigger evals in plugin/skills/vitrine-deck/evals/
+VITRINE_HOME=/path/to/Vitrine node scripts/sync-cli.mjs # refresh cli/ and package.json from Vitrine
 ```
 
 The plugin itself is `plugin/` (Markdown, JSON and images only); the eval runner, grader and fixture apps live
-in `evals/`. See [CHANGELOG.md](CHANGELOG.md).
+in `evals/`. `cli/` is generated from the Vitrine app's source by `scripts/sync-cli.mjs`; don't edit it here. See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
