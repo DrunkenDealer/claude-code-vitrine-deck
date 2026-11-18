@@ -5,7 +5,7 @@ user-invocable: true
 argument-hint: "[screenshots-dir]"
 allowed-tools: Read, Write, Glob, Grep, Bash, AskUserQuestion
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Vitrine Deck
