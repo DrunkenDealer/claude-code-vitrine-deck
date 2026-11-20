@@ -61,7 +61,7 @@ Re-asking for something the repo already answers is the most irritating thing th
 
 | Need | Read from |
 |---|---|
-| Main feature, screens to show, slide copy | `aso/screenshot-brief.md` if present (written by [aso-kit](https://github.com/DrunkenDealer/claude-code-aso-kit)): its slides are the starting plan, its keywords are the ones to echo |
+| Main feature, screens to show, slide copy | `aso/screenshot-brief.md` if present (written by [aso-kit](https://github.com/DrunkenDealer/aso-kit)): its slides are the starting plan, its keywords are the ones to echo |
 | App name, description, category, value prop | `README.md`, `fastlane/metadata/`, `build.gradle(.kts)`, `Info.plist`, `package.json` |
 | Store keywords to echo | `fastlane/metadata/**/keywords.txt`, `fastlane/metadata/android/*/short_description.txt` |
 | Brand colours | `Theme.kt`, `Color.kt`, `colors.xml`, `Colors.swift`, `Assets.xcassets`, `tailwind.config.*`, `theme.ts` |
